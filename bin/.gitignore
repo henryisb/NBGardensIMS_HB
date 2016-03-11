@@ -3,3 +3,6 @@
 /NBGardensDB.class
 /OracleDBCon.class
 /UserInterface.class
+/CatalogueConnection.class
+/MongoDBDBCon$1.class
+/MongoDBDBCon$2.class

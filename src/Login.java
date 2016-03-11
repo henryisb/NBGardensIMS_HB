@@ -28,7 +28,7 @@ public class Login {
 			case 1 :
 				//mongoCon.mongodbcon();
 				//mongoCon.table();
-				mongoCon.searchDoc();
+				//mongoCon.searchDoc();
 				break;
 				
 			

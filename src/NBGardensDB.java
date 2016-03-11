@@ -17,6 +17,10 @@ public class NBGardensDB {
 		
 		Scanner sc;
 		int db;
+		String collection = null;
+		String desc = null;
+		String picture = null;
+		int id = 0;
 		
 		System.out.println("Please choose which data base... \n1 for mongo \n2 for oracle");
 		sc = new Scanner(System.in);
@@ -34,7 +38,9 @@ public class NBGardensDB {
 			case 1 :
 				//mongoCon.mongodbcon();
 				//mongoCon.table();
-				mongoCon.searchDoc();
+				//mongoCon.addProductDoc(collection, id, desc, picture);
+				//mongoCon.searchAllDoc("product");
+				mongoCon.returnAllInfo("product");
 				break;
 				
 			
